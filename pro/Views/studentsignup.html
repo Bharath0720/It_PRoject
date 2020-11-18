@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Student Signup form</title>
+    </head>
+    <body>
+        <center>
+            <h3>Student SignUp</h3>
+            <form action="studentsignup.php" method="POST">
+                <table>
+                    <tr>
+                        <td>Id:</td>
+                        <td>
+                            <input type="number" name="student_id" placeholder="Enter your id">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Name:</td>
+                        <td>
+                            <input type="text" name="user_name" placeholder="Enter full name here">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Gender:</td>
+                        <td>
+                            <input type="radio" name="gender">Male
+                            <input type="radio" name="gender">Female
+                            <input type="radio" name="gender">Others
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Password:</td>
+                        <td>
+                            <input type="password" name="user_pass" placeholder="Enter password here">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Phone:</td>
+                        <td>
+                            <input type="phone" name="student_ph" placeholder="98********" maxlength="10">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Email:</td>
+                        <td>
+                            <input type="email" name="student_email" placeholder="a***@gmail.com">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="submit" name="submit" value="SignUp">
+                        </td>
+                        <td>
+                        Already signed in? <a href="studentlogin.html">Log in here</a>
+                        </td>
+                    </tr>
+                </table>
+            </form>
+        </center>
+    </body>
+</html>
